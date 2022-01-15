@@ -1,0 +1,50 @@
+body {
+  font-family: Cambria;
+  /* background: #2f3e46;  */
+  background-image: linear-gradient(to bottom right,#2f3e46,#cad2c5);
+  color: black;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  padding: 20px;
+  border-radius: 20px;
+}
+@media only screen and (min-width: 100px) and (max-width: 699px) {
+body {
+  width: 80%;
+  }
+}
+input {
+  background: grey;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+button {
+  margin-top: 20px;
+  transition-duration: 2s;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+}
+
+#future {
+  font-weight: bold;
+}
+
+h2 {
+  text-decoration: underline;
+  color: #354f52;
+}
+
+h1 {
+  color: #cad2c5
+}
+
+#random-number {
+  font-weight: bold;
+}
